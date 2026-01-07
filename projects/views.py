@@ -8,4 +8,4 @@ def project_index(request):
     context = {
         'projects': projects
     }
-    return render(request, 'projects/project_index.html', context)
+    return render(request, 'projects/project_index.html',context)
