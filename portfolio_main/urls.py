@@ -8,6 +8,7 @@ urlpatterns = [
     path('', include('pages.urls')),
     path('admin/', admin.site.urls),
     path('projects/', include('projects.urls')),
+    path('contacto/', include('contacto.urls'))
 ]
 
 # Esto conecta la carpeta media con el navegador
