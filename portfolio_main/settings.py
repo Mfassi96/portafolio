@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)&5zb4(dgqckq*w3)k4&2c6f7c!q^-f7+duxzql=v3@&dai^_*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mfassi.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -125,3 +125,4 @@ STATICFILES_DIRS = [BASE_DIR / 'static']
 # Configuración para archivos subidos por el usuario (Fotos de perfil, capturas de proyectos)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+
